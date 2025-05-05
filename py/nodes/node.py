@@ -25,7 +25,7 @@ from ..defs.combo import SAMPLER_SELECTION_METHOD
 
 # refer. https://github.com/comfyanonymous/ComfyUI/blob/38b7ac6e269e6ecc5bdd6fefdfb2fb1185b09c9d/nodes.py#L1411
 class SaveImageWithMetaData(BaseNode):
-    SAVE_FILE_FORMATS = ["png", "jpeg", "webp"]
+    SAVE_FILE_FORMATS = ["png", "jpg", "webp"]
 
     def __init__(self):
         self.output_dir = folder_paths.get_output_directory()
